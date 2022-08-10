@@ -6,10 +6,11 @@
 
     /* Completeness */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "strict": true,
     "baseUrl": "./",
     "paths": {
       "@src/*": ["./src/*"],
-      "@assets/": ["./assets/*"],
+      "@assets/*": ["./assets/*"],
       "@components/*": ["./components/*"],
       "@config/*": ["./config/*"],
       "@hooks/*": ["./hooks/*"],
